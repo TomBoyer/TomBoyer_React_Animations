@@ -11,8 +11,8 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Liste />} />
-        <Route path="/scroll" element={<Scroll />} />
         <Route path="/stateanim" element={<StateAnim />} />
+        <Route path="/scroll" element={<Scroll />} />
       </Routes>
     </div>
   );
